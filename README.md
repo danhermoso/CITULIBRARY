@@ -22,29 +22,29 @@ Follow these steps to run and access the project on your local machine:<br>
     •	Navigate to the XAMPP installation location.<br>
     •	Follow the path: XAMPP -> htdocs -> Project.<br>
     •	Place the CITUMAINLIBRARY folder in the Project directory.<br>
-3.)	Set up the database:
-    •	Download the MySQL file for the project.
-    •	Open HeidiSQL and click on "New".
-    •	Ensure the port number matches the one running on XAMPP.
-    •	Open the MySQL file using Visual Studio, copy the MySQL code, go to the "Query" tab in HeidiSQL, and run the code.
-4.)	Configure database connection:
-    •	Open Visual Studio and edit the db_connection.php file.
-    •	Update the port number to match the one used by XAMPP.
-5.) Start XAMPP services:
-    •	Ensure both Apache and MySQL are running in XAMPP.
-6.) Access the project:
-    •	Open your web browser and go to http://localhost/Project/CITUMAINLIBRARY/index.php.
-7.)  Run the chatbot:
-    •	In your terminal, navigate to the project directory and run:
-     python app.py
------------------------------------------------------------------------------------------------------------------------------------------------------
-How to Start/run the Project
-!.) Open xampp and start Apache & MySQL
-2.) Open Sql (heidiSQL) and open the database
-3.) Once connetected to the database, you can now access the system to your browser (http://localhost/project/)
-4.) After that, you can now freely explore and use the system.
+3.)	Set up the database:<br>
+    •	Download the MySQL file for the project.<br>
+    •	Open HeidiSQL and click on "New".<br>
+    •	Ensure the port number matches the one running on XAMPP.<br>
+    •	Open the MySQL file using Visual Studio, copy the MySQL code, go to the "Query" tab in HeidiSQL, and run the code.<br>
+4.)	Configure database connection:<br>
+    •	Open Visual Studio and edit the db_connection.php file.<br>
+    •	Update the port number to match the one used by XAMPP.<br>
+5.) Start XAMPP services:<br>
+    •	Ensure both Apache and MySQL are running in XAMPP.<br>
+6.) Access the project:<br>
+    •	Open your web browser and go to http://localhost/Project/CITUMAINLIBRARY/index.php.<br>
+7.)  Run the chatbot:<br>
+    •	In your terminal, navigate to the project directory and run:<br>
+     python app.py<br>
+-----------------------------------------------------------------------------------------------------------------------------------------------------<br>
+How to Start/run the Project<br>
+!.) Open xampp and start Apache & MySQL<br>
+2.) Open Sql (heidiSQL) and open the database<br>
+3.) Once connetected to the database, you can now access the system to your browser (http://localhost/project/)<br>
+4.) After that, you can now freely explore and use the system.<br>
 
-HOW TO USE LISA CHATBOT
-5.) In visual studio start the flask server named app.py inside chat-bot-lisa folder.
-6.) In the website navigate and click the LISA button in the navigation bar at the top part of the website.
-7.) You'll be redirected to a LISA introduction page. press chat LISA to start communicating with LISA.
+HOW TO USE LISA CHATBOT<br>
+5.) In visual studio start the flask server named app.py inside chat-bot-lisa folder.<br>
+6.) In the website navigate and click the LISA button in the navigation bar at the top part of the website.<br>
+7.) You'll be redirected to a LISA introduction page. press chat LISA to start communicating with LISA.<br>
