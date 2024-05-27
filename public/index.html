@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>CIT - U Mainlibrary</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+<!-- sweet alert -->
+<link rel="stylesheet" href="public/PopupChatbot.css">
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+<!-- sweet alert -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Append
+  * Updated: Feb 01 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.php" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="assets/img/citu/lib-logo.png" class="img-fluid" alt=""><h1>LRAC</h1>
+        <span>.</span>
+      </a>
+
+      <!-- Nav Menu -->
+      <nav id="navmenu" class="navmenu">
+        <ul style='font-weight:bold'>
+          <li><a href="index.php#hero" class="active">Home</a></li>
+          <li><a href="index.php#about">About</a></li>
+          <li><a href="index.php#services">Services</a></li>
+          <!-- <li><a href="index.php#portfolio">Portfolio</a></li> -->
+          <li><a href="index.php#team">Team</a></li>
+          <li><a href="whatsnewd.php">What's New</a></li>
+          <li class="dropdown has-dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-down"></i></a>
+            <ul class="dd-box-shadow">
+              <li><a href="resources.php">Resources</a></li>
+              <li class="dropdown has-dropdown"><a href="#"><span>Five-Tiered Library Instruction Program</span> <i class="bi bi-chevron-down"></i></a>
+                <ul class="dd-box-shadow">
+                  <li><a href="#" id="level1">LIP Level 1 (Library Tour)</a></li>
+                  <li><a href="#" id="level2">LIP Level 2 (Library Orientation)</a></li>
+                  <li><a href="#" id="level3">LIP Level 3 (Bibliographic Instruction)</a></li>
+                  <li><a href="#" id="level4">LIP Level 4 (Research Strategy)</a></li>
+                  <li><a href="#" id="level5">LIP Level 5 (Library Instruction)</a></li>
+                
+                </ul>
+              </li>
+              <!-- <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li> -->
+            </ul>
+          </li>
+          <li><a href="localhost:3000">Contact</a></li>
+        </ul>
+
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav><!-- End Nav Menu -->
+
+      <!-- <a class="btn-getstarted" href="index.html#about">Login</a> -->
+      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#loginModal">
+        Login
+    </button>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+
+
+<section id="hero">
+  <div id="carouselExample" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/citu/Learning-Resource-and-Activity-Center-01.jpg" class="d-block w-100" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/citu/428263031_417657480932770_6717833263284258299_n.jpg" class="d-block w-100" alt="Slide 2">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/citu/71323384_10155658850919229_3267231211759599616_n.jpg" class="d-block w-100" alt="Slide 3">
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <div class="row">
+      <div class="col-lg-10">
+        <h2 data-aos="fade-up" data-aos-delay="100" style='color: black;font-size:80px; margin-top:-350px;'>Learning Resource And Activity <a data-toggle="modal" data-target="#registrationModal" >Center</a></h2>
+        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#registrationModal">
+        Open Registration Modal -->
+    </button>
+        <p data-aos="fade-up" data-aos-delay="100" style='color: black;'>The Learning Resource and Activity center is more than a Library. The space has been designed to maximize learning and enable collaboration. With discussion areas, learning becomes fun and interactive</p>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+<!-- <section id="features" class="features">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Features</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container">
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <h3>Corporis temporibus maiores provident</h3>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+            </p>
+            <a href="#" class="btn btn-get-started">Get Started</a>
+          </div>
+          <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <div class="image-stack">
+              <img src="assets/img/features-light-1.jpg" alt="" class="stack-front">
+              <img src="assets/img/features-light-2.jpg" alt="" class="stack-back">
+            </div>
+          </div>
+        </div>
+
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+          <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
+            <img src="assets/img/features-light-3.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
+            <h3>Sunt consequatur ad ut est nulla</h3>
+            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+            <ul>
+              <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+              <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+              <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
+            </ul>
+            <a href="#" class="btn btn-get-started align-self-start">Get Started</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section> -->
+    <!-- End Features Section -->
+   
+
+   
+    <!-- About Section - Home Page -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+
+          <div class="col-xl-5 content">
+            <h3>About Us</h3>
+            <h2>BRIEF HISTORY</h2>
+            <p style='word-wrap: break-word; overflow: hidden;  text-overflow: ellipsis; font-size: 13px;'>The Library and Learning Resource Center was established in  <br>Cebu Institute of Technology’s first campus on C. Padilla Street. <br> When the institution moved to the N. Bacalso Avenue <br> campus in the late 1960’s, the library was relocated as well. <br> During the 1980’s, the library took its present site, with its building renovated later <br>  in 2004 adapting much more modern and state of the art facilities to improve <br> services. At present, the main library building, also known as the College Library, <br>  is centrally located inside the campus, giving students and faculty a convenient access. <br> 
+          The Library and Learning Resource Center is composed of the College Library and four unit libraries located in separate buildings, namely, the Graduate Library, the Academic Library Extension, the High School Library and the Elementary Library.</p>
+            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+          <div class="col-xl-7">
+            <div class="row gy-4 icon-boxes">
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box">
+                  <i class="bi bi-buildings"></i>
+                  <h3>OUR VISION</h3>
+                  <p>The Library and Learning Resource Center, as an academic support unit, strives to develop an environment that encourages the pursuit of intellectual endeavor, and the discovery of new knowledge that will advance lifelong learning</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <!-- <i class="bi bi-clipboard-pulse"></i> -->
+                
+                  <img src="assets/img/citu/graduate-lib.jpg" class="img-fluid" alt="vision">
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-command"></i>
+                  <h3>OUR MISSIOn</h3>
+                  <p>To provide access to information sources consistent with the present and anticipated curricular, co-curricular, research and social concerns of the CIT community, and to render quality library services that are directed towards the needs of the library clientele.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-graph-up-arrow"></i>
+                  <h3>SERVICE HOURS</h3>
+                  <p style='font-size: 12px'>Come and visit us! The Library and Learning Resource Center is open: <br>
+                      Monday to Friday7:30 A.M. – 7:30 P.M. <br>
+                      Saturday8:00 A.M. – 12:00 NOON <br>
+                      Saturdays before scheduled major exams(prelim, midterm, pre-final & final exams) 8:00 A.M. – 4:00 P.M.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- Stats Section - Home Page -->
+    <section id="stats" class="stats">
+
+      <img src="assets/img/citu/70798617_10155658849974229_5111339801856966656_n.jpg" alt="" data-aos="fade-in">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="3000" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Student</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Library</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Faculty</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Workers</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Stats Section -->
+
+    <!-- Services Section - Home Page -->
+    <section id="services" class="services">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <!-- <p></p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-view-stacked"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Faculty Service</a></h4>
+                <p class="description">This service is for the checking in and out of library materials by faculty and administrative employees.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Book Reservation Service</a></h4>
+                <p class="description">This service enables the faculty to have specific books withdrawn from the open- shelf collection and placed in the Reserved Books Section at the Circulation Counter where they are made available on a restricted basis and ensure equal use of the materials as they can no longer be checked out by library users for a long period of time.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-file-earmark-plus"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Library and Information Literacy Program</a></h4>
+                <p class="description">This is to foster the students' critical thinking skills about finding, evaluating, and using resources. This is delivered in 7 levels. Levels 5 - 7 are designed for faculty members.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-journal-bookmark"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Bibliography Service</a></h4>
+                <p class="description">The service allows the librarian to provide listings of books, journals, utilization statistics reports, or other library
+documents upon the request of offices, colleges, departments.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Alternative Class Activity</a></h4>
+                <p class="description">This service involves faculty members who wish to bring their classes to the library during their class period for research activities.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-phone"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Push Technology</a></h4>
+                <p class="description">This service is offered to Deans, Department Chairs, and Heads of Offices to keep them abreast of the newest periodical materials available in the library.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-intersect"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Abstracting Service</a></h4>
+                <p class="description">This service is offered to faculty members, department chairs, and deans particularly individuals undertaking research who would need abstracts of books, journals, magazines, or other print library materials for their literature review or other research purposes.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-houses"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Integrating E-Resource into a course syllabus</a></h4>
+                <p class="description">The librarians closely collaborate with the faculty members in extracting electronic resources which belong to a specific subject or topic of a program.
+</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-people"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Use of Graduate Library Board Examination Review Purpose</a></h4>
+                <p class="description">This service allows the Alumni to access the resources of the library for free for review purposes in coordination with their department office.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-people"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Use of library resources by Alumni</a></h4>
+                <p class="description">This service allows the Alumni to access the resources of the library for their personal use.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-phone"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Acquisition of information sources</a></h4>
+                <p class="description">This service enables the library and the departments to determine the appropriate materials needed to support the instructional and research activities of the academic community in accordance with the existing policies and procedures of the institution.
+</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-book"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Cataloguing of books and other types of information sources</a></h4>
+                <p class="description">This service is considered a working- behind-the-scene operation and observes the cataloguing procedure using the Pinnacle Database and the classification is mainly based on Dewey Decimal Classification System (DDC).</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          
+        </div>
+
+      </div>
+
+    </section><!-- End Services Section -->
+    <section id="team" class="team">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>MEET YOUR LIBRARY STAFF</h2>
+        <p style='font-size:12px;'>The Library and Learning Resource Center is currently staffed by (13) qualified professional librarians, three (3) professional support personnel and forty-eight (48) Non - Academic Scholars (NAS), all directed by the University Librarian, who has a masters's degree in Library Science and certifications earned abroad. These qualifications satisfy the minimum requirement set by CHED and PACUCOA for university librarians. The daily operations of the library are facilitated with the help of the library staff assisting the University Librarian, who are all united with one direction: providing quality service to the clientele making them fully learned and independent information seekers.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
+            <div class="member-img">
+              <img src="assets/img/librarian_girl.png" class="img-fluid" alt="">
+              <!-- <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div> -->
+            </div>
+            <div class="member-info text-center">
+              <h4>RAINERA BOHOLST</h4>
+              <span>University Librarian</span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+            <div class="member-img">
+            <img src="assets/img/librarian_girl.png" class="img-fluid" alt="">
+             
+            </div>
+            <div class="member-info text-center">
+              <h4>JESTHINE KATE A. APARRI</h4>
+              <span>Office Secretary</span>
+              <!-- <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p> -->
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
+            <div class="member-img">
+              <img src="assets/img/librarian_girl.png" class="img-fluid" alt="">
+             
+            </div>
+            <div class="member-info text-center">
+              <h4>IMELDA D. LOPEZ</h4>
+              <span>Grade School Librarian</span>
+              <!-- <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p> -->
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
+            <div class="member-img">
+            <img src="assets/img/librarian_girl.png"  class="img-fluid" alt="">
+              
+            </div>
+            <div class="member-info text-center">
+              <h4>ROWELA J. ESTRADA</h4>
+              <span>Subject Reference Librarian</span>
+              <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
+            <div class="member-img">
+              <img src="assets/img/librarian_girl.png"  class="img-fluid" alt="">
+            </div>
+            <div class="member-info text-center">
+              <h4>LOTIS A. ARCEO</h4>
+              <span>Acquisition Librarian</span>
+              <!-- <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p> -->
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+            <div class="member-img">
+            <img src="assets/img/librarian_girl.png" class="img-fluid" alt="">
+            </div>
+            <div class="member-info text-center">
+              <h4>MAYRELEN N. RIVERA</h4>
+              <span>Information Desk In Charge</span>
+              <!-- <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p> -->
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Team Section -->
+
+
+    <!-- ==================== Test ko lang  -->
+    <section id="recent-posts" class="recent-posts">
+    <div class="container section-title" data-aos="fade-up">
+        <h2>What's New</h2>
+       
+    </div>
+
+    <!-- <div class="container">
+        <div class="row gy-4">
+            <?php
+            while ($row = $result->fetch_assoc()) {
+                echo '<div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">';
+                echo '<article>';
+                echo '<div class="post-img">';
+                // Assuming you have an 'image' column in your database
+                echo '<img src="whatsnew/' . $row['image_link'] . '" alt="" class="img-fluid">';
+                echo '</div>';
+                echo '<p class="post-category">' . $row['name'] . '</p>';
+                echo '<h2 class="title"><a href="#">' . $row['description'] . '</a></h2>';
+                echo '<div class="d-flex align-items-center">';
+                echo '<div class="post-meta">';
+         
+                echo '<p class="post-date"><time>' . $row['date_created'] . '</time></p>';
+                echo '</div>';
+                echo '</div>';
+                echo '</article>';
+                echo '</div>';
+            }
+            ?>
+        </div>
+    </div> -->
+</section>
+
+
+<!-- chatbots  -->
+<section>
+  <div id="popup-chatbot-container"></div>
+
+  <!-- Include React and ReactDOM libraries -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+  <!-- Include your React component -->
+  <script type="module">
+    import PopupChatbot from './public/PopupChatbot.js';
+    // Render the PopupChatbot component into the container
+    ReactDOM.render(
+        React.createElement(PopupChatbot),
+        document.getElementById('popup-chatbot-container')
+    );
+  </script>
+  
+</section>
+<style>
+  .chat-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.chat-history {
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.user-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.user-input input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.user-input button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pls {
+  position: absolute;
+  bottom: -70px;
+  right: 10px;
+}
+
+.Lisa {
+  width: 50px;
+  height: 50px;
+}
+</style>
+    <!-- ==================== Test ko lang  -->
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <img src="assets/img/citu/logocit-1.png"  alt="logo" style='height:200px; width:380px'>
+          <div class="social-links d-flex mt-6">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Contact Us</h4>
+          <ul>
+            <li>N. Bacalso Avenue, Cebu City, Philippines 6000<br></li>
+            <li>+63 32 411 2000 <br> Trunkline</li>
+            <li>info@cit.edu</li>
+           
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-6 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Enrollment</a></li>
+            <li><a href="#">Scholarships</a></li>
+            <li><a href="#">Payment Portal</a></li>
+            <li><a href="#">Quick Links</a></li>
+
+          </ul>
+        </div>
+
+        <!-- <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>A108 Adam Street</p>
+          <p>New York, NY 535022</p>
+          <p>United States</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+          <p><strong>Email:</strong> <span>info@example.com</span></p>
+        </div> -->
+
+      </div>
+    </div>
+
+    <!-- <div class="col-md-12 copyright text-center mt-4">
+      <p>&copy; <span>Copyright</span> <strong class="px-1">CITU</strong> <span>All Rights Reserved</span></p>
+      <div class="credits"> -->
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        <!-- Designed by <a href="https://bootstrapmade.com/" hidden></a> -->
+      </div>
+    <!-- </div> -->
+
+  </footer><!-- End Footer -->
+
+  <!-- Scroll Top Button -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <!-- REGISTRATION MODAL -->
+  <div class="modal fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="registrationModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+          <!-- Include your registration form here -->
+          <form method="post" action="">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="registrationModalLabel">User Registration</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <!-- Left Column -->
+                          <div class="form-group">
+                              <label for="firstname">First Name:</label>
+                              <input type="text" class="form-control" name="firstname" required>
+                          </div>
+                          <div class="form-group">
+                              <label for="lastname">Last Name:</label>
+                              <input type="text" class="form-control" name="lastname" required>
+                          </div>
+                          <div class="form-group">
+                              <label for="sex">Sex:</label>
+                              <select class="form-control" name="sex" required>
+                                  <option value="Male">Male</option>
+                                  <option value="Female">Female</option>
+                              </select>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <!-- Right Column -->
+                          <div class="form-group">
+                              <label for="email">Email Address:</label>
+                              <input type="email" class="form-control" name="email" required>
+                          </div>
+                          <div class="form-group">
+                              <label for="role_id">Role:</label>
+                              <select class="form-control" name="role_id" required>
+                                  <?php
+                                  echo "<option> -- SELECT -- </option> ";
+                                  while ($row = mysqli_fetch_assoc($resultRole)) {
+                                      echo "<option value='" . $row['id'] . "'>" . $row['name'] . "</option>";
+                                  }
+                                  ?>
+                              </select>
+                          </div>
+                          <div class="form-group">
+                              <label for="username">Username:</label>
+                              <input type="text" class="form-control" name="username" required>
+                          </div>
+                          
+                      </div>
+                  </div>
+                  <!-- Additional form fields go here -->
+                  <div class="form-group">
+    
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" name="password" required>
+                    
+                  </div>
+                
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="submit" class="btn btn-primary">Register</button>
+              </div>
+          </form>
+      </div>
+  </div>
+</div>
+
+<!-- LOGIN  -->
+<!-- LOGIN MODAL -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <!-- Include your login form here -->
+            <form method="post" action="login_process.php">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">User Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="login_username">Username:</label>
+                        <input type="text" class="form-control" name="login_username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login_password">Password:</label>
+                        <input type="password" class="form-control" name="login_password" required>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- FIVE TIERRED -->
+<!-- level 1 -->
+<div class="modal fade" id="level1Modal" tabindex="-1" role="dialog" aria-labelledby="level1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="level1ModalLabel">LIP Level 1 (Library Tour)</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>LIP Level I (Library Tour) caters to anyone who wishes to have an overview of the Library system through a physical tour of its facilities, service areas, holdings, and more.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- level 2 -->
+<div class="modal fade" id="level2Modal" tabindex="-1" role="dialog" aria-labelledby="level2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="level2ModalLabel">LIP Level 2 (Library Orientation)</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>LIP Level II (Library Orientation) caters to all students taking up English 011 (Study and Thinking Skills) to help them find their way in using the library. Students are given an overview of the library system through a virtual tour, launched last July 2012 using an audio-visual presentation. Then through a lecture, students are taught the library policies and basic library skills, such as using the e-catalog and borrowing/returning a book, etc.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- level 3 -->
+<div class="modal fade" id="level3Modal" tabindex="-1" role="dialog" aria-labelledby="level3ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="level3ModalLabel">LIP Level 3 (Bibliographic Instruction)</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>LIP Level III (Bibliographic Instruction) caters to all students taking up English 012/014 (Writing in the Disciplines/Technical Writing). In preparation for intensive research and data gathering in their later years, freshman and sophomore students are given a more enhanced discussion on the various types of library resources and are trained how to access and use these resources using the various library search tools, e.g. e-catalog, periodical index system, and online databases, though lecture, hands-on exercises, and skills testing.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- level 4 -->
+<div class="modal fade" id="level4Modal" tabindex="-1" role="dialog" aria-labelledby="level4ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="level4ModalLabel">LIP Level 4 (Research Strategies Seminar-Workshop)</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>LIP Level IV (Research Strategies Seminar-Workshop) caters to fourth year and fifth year students taking up research courses in their specific fields of study. Now, students are given an in-depth discussion on how the library’s resources and services can aid them throughout the entire research process. Part 1 provides a brief introduction to thesis writing, a comprehensive study of the different library resources available, and the search tools used to access these resources. Part 2 gives practical tips in data gathering and literature search, utilizing web resources, evaluating websites and other information sources, note-taking and bibliographic citation. Each session is followed by a hands-on workshop on finding and citing sources using the library and web search tools.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- level 5 -->
+<div class="modal fade" id="level5Modal" tabindex="-1" role="dialog" aria-labelledby="level5ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="level5ModalLabel">LIP Level 5 (Library Instruction for Faculty)</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>LIP Level V (Library Instruction for Faculty) caters to faculty members in all three levels (Elementary, High School, and College) to acquaint them with the various library resources, services, and facilities suitable for them and the students they are handling. Faculty members are oriented with the library policies and service procedures, e.g. book borrowing, applicable to them. They are also trained in the use of the library search tools, particularly the online databases.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- FIVE TIERRED -->
+
+<!-- LOGIN  -->
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script>
+    $(document).ready(function() {
+      $('#level1').click(function(e) {
+        e.preventDefault();
+        $('#level1Modal').modal('show');
+      });
+    });
+
+    $(document).ready(function() {
+      $('#level2').click(function(e) {
+        e.preventDefault();
+        $('#level2Modal').modal('show');
+      });
+    });
+
+    $(document).ready(function() {
+      $('#level3').click(function(e) {
+        e.preventDefault();
+        $('#level3Modal').modal('show');
+      });
+    });
+
+    $(document).ready(function() {
+      $('#level4').click(function(e) {
+        e.preventDefault();
+        $('#level4Modal').modal('show');
+      });
+    });
+
+    $(document).ready(function() {
+      $('#level5').click(function(e) {
+        e.preventDefault();
+        $('#level5Modal').modal('show');
+      });
+    });
+
+    
+  </script>
+
+
+
+
+  <script src="assets/js/main.js"></script>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+
+    #hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      position: relative;
+      padding-top: 460px; /* Adjust this value based on your navigation bar height */
+      overflow: hidden; /* Hide overflow from navigation bar */
+    }
+
+    .carousel {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .carousel-inner {
+      height: 100%;
+    }
+
+    .carousel-item {
+      height: 100%;
+    }
+
+    .carousel-item img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
+    .hero-content {
+      text-align: center;
+     
+    }
+
+    .hero-content h2 {
+      font-size: 2.5rem;
+      font-weight:bold;
+      color: #8c383e;
+    
+      margin-bottom: 16px;
+    }
+
+    .hero-content p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+  </style>
+   <!-- Your HTML body content... -->
+
+    <!-- Include SweetAlert2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <!-- Other script tags... -->
+</body>
+
+</html>
