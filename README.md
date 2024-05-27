@@ -3,25 +3,25 @@ cit-u library website/chatbot
 
 ## Requirements
 
-Before you start, ensure you have met the following requirements:
-- **Python Version**: Ensure you have Python 3.8 or higher installed. You can download it from [python.org](https://www.python.org/downloads/).
-- **Visual Studio**: Download and install Visual Studio. You can get it from [visualstudio.microsoft.com](https://visualstudio.microsoft.com/).
-- **HeidiSQL**: Download and install HeidiSQL for managing your database. You can get it from [heidisql.com](https://www.heidisql.com/download.php).
-- **XAMPP**: Download and install XAMPP to set up a local web server. You can get it from [apachefriends.org](https://www.apachefriends.org/index.html).
-- **Package Manager**: Ensure you have `pip` installed.
-- **Dependencies**: All required Python packages are listed in the `pip install.txt` file.
+Before you start, ensure you have met the following requirements:<br>
+- **Python Version**: Ensure you have Python 3.8 or higher installed. You can download it from [python.org](https://www.python.org/downloads/).<br>
+- **Visual Studio**: Download and install Visual Studio. You can get it from [visualstudio.microsoft.com](https://visualstudio.microsoft.com/).<br>
+- **HeidiSQL**: Download and install HeidiSQL for managing your database. You can get it from [heidisql.com](https://www.heidisql.com/download.php).<br>
+- **XAMPP**: Download and install XAMPP to set up a local web server. You can get it from [apachefriends.org](https://www.apachefriends.org/index.html).<br>
+- **Package Manager**: Ensure you have `pip` installed.<br>
+- **Dependencies**: All required Python packages are listed in the `pip install.txt` file.<br>
 
-To install the required Python packages, run:
-pip install -r all the modules that are required and being used in the system - requirements.txt
+To install the required Python packages, run:<br>
+pip install -r all the modules that are required and being used in the system - requirements.txt<br>
 
 
-How to Deploy the Project
-Follow these steps to run and access the project on your local machine:
-1.)	Clone the repository
-2.)	Move the project to the XAMPP directory:
-    •	Navigate to the XAMPP installation location.
-    •	Follow the path: XAMPP -> htdocs -> Project.
-    •	Place the CITUMAINLIBRARY folder in the Project directory.
+How to Deploy the Project<br>
+Follow these steps to run and access the project on your local machine:<br>
+1.)	Clone the repository<br>
+2.)	Move the project to the XAMPP directory:<br>
+    •	Navigate to the XAMPP installation location.<br>
+    •	Follow the path: XAMPP -> htdocs -> Project.<br>
+    •	Place the CITUMAINLIBRARY folder in the Project directory.<br>
 3.)	Set up the database:
     •	Download the MySQL file for the project.
     •	Open HeidiSQL and click on "New".
