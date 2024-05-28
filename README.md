@@ -15,7 +15,7 @@ To install the required Python packages, run:<br>
 pip install -r all the modules that are required and being used in the system - requirements.txt<br>
 
 
-How to Deploy the Project<br>
+<b>How to Deploy the Project<br></b>
 Follow these steps to run and access the project on your local machine:<br>
 1.)	Clone the repository<br>
 2.)	Move the project to the XAMPP directory:<br>
@@ -44,7 +44,7 @@ Follow these steps to run and access the project on your local machine:<br>
 3.) Once connetected to the database, you can now access the system to your browser (http://localhost/project/)<br>
 4.) After that, you can now freely explore and use the system.<br>
 
-HOW TO USE LISA CHATBOT<br>
+<b>HOW TO USE LISA CHATBOT<br></b>
 5.) In visual studio start the flask server named app.py inside chat-bot-lisa folder.<br>
 6.) In the website navigate and click the LISA button in the navigation bar at the top part of the website.<br>
 7.) You'll be redirected to a LISA introduction page. press chat LISA to start communicating with LISA.<br>
