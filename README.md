@@ -38,7 +38,7 @@ Follow these steps to run and access the project on your local machine:<br>
     •	In your terminal, navigate to the project directory and run:<br>
      python app.py<br>
 -----------------------------------------------------------------------------------------------------------------------------------------------------<br>
-How to Start/run the Project<br>
+<b>How to Start/run the Project<br></b>
 !.) Open xampp and start Apache & MySQL<br>
 2.) Open Sql (heidiSQL) and open the database<br>
 3.) Once connetected to the database, you can now access the system to your browser (http://localhost/project/)<br>
